@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { allUis } from "content-collections";
 
 export default function Home() {
   return (
@@ -22,6 +23,17 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+
+        <ul>
+          {allUis.map((uiLib) => (
+            <li key={uiLib._meta.path}>
+              <a href={`/posts/${uiLib._meta.path}`}>
+                <h3>{uiLib.name}</h3>
+                <p>{uiLib.website}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
