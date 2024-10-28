@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { allUis } from "content-collections";
+import { content } from '@/content';
 
 export default function Home() {
   return (
@@ -25,11 +25,11 @@ export default function Home() {
         </ol>
 
         <ul>
-          {allUis.map((uiLib) => (
-            <li key={uiLib._meta.path}>
-              <a href={`/posts/${uiLib._meta.path}`}>
-                <h3>{uiLib.name}</h3>
-                <p>{uiLib.website}</p>
+          {content.ui.map((lib) => (
+            <li key={lib._meta.path}>
+              <a href={`/posts/${lib._meta.path}`}>
+                <h3>{lib.name}</h3>
+                <p>{lib.website}</p>
               </a>
             </li>
           ))}
