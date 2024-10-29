@@ -7,6 +7,7 @@ const uiLibs = defineCollection({
   schema: (z) => ({
     name: z.string(),
     website: z.string(),
+    logo: z.string().optional(),
     type: z.array(z.string()),
     repository: z.string().optional(),
   }),
