@@ -1,0 +1,15 @@
+
+{
+  "name": "Mamba UI",
+  "website": "https://mambaui.com/",
+  "logo": "mamba-ui.svg",
+  "cost": "free",
+  "type": ["components", "templates"],
+  "repository": "https://github.com/Microwawe/mamba-ui",
+  "tech": ["vanilla", "vue", "jsx"],
+  "usage": "copy-paste",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

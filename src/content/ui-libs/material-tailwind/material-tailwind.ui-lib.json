@@ -1,0 +1,14 @@
+{
+  "name": "Next UI",
+  "website": "https://nextui.org/",
+  "logo": "next-ui.svg",
+  "cost": "free",
+  "type": ["components"],
+  "repository": "https://github.com/nextui-org/nextui",
+  "tech": "react",
+  "usage": "npm package",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

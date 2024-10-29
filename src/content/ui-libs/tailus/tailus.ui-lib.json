@@ -1,0 +1,15 @@
+
+{
+  "name": "tailus",
+  "website": "https://tailus.io/",
+  "logo": "tailus.svg",
+  "cost": "freemium",
+  "type": ["blocks", "templates"],
+  "repository": "https://github.com/tailus-ui",
+  "tech": "",
+  "usage": "",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

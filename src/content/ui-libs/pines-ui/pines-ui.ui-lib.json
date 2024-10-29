@@ -1,0 +1,16 @@
+{
+  "name": "Pines UI",
+  "website": "https://devdojo.com/pines",
+  "logo": "pines-ui.svg",
+  "cost": "free",
+  "type": [
+    "elements"
+  ],
+  "repository": "https://github.com/thedevdojo/pines",
+  "tech": "alpine",
+  "usage": "copy-paste",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

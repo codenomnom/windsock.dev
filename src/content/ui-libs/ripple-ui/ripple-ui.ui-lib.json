@@ -1,0 +1,16 @@
+{
+  "name": "Ripple UI",
+  "website": "https://www.ripple-ui.com/",
+  "logo": "ripple-ui.svg",
+  "cost": "free",
+  "type": [
+    "components"
+  ],
+  "repository": "https://github.com/Siumauricio/rippleui",
+  "tech": "",
+  "usage": "npm package",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

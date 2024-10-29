@@ -1,0 +1,14 @@
+{
+  "name": "Tailkit",
+  "website": "https://tailkit.com",
+  "logo": "tailkit.svg",
+  "cost": "paid",
+  "type": ["components", "templates", "starter kits"],
+  "repository": "https://github.com/tailkit/tailkit",
+  "tech": "",
+  "usage": "",
+  "short description": "Professional Tailwind components.",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Rewind UI",
+  "website": "https://rewind-ui.dev/",
+  "logo": "rewind-ui.svg",
+  "cost": "free",
+  "type": ["components"],
+  "repository": "https://github.com/rewindui/rewindui",
+  "tech": "react",
+  "usage": "npm package",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

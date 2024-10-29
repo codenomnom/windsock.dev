@@ -1,0 +1,14 @@
+{
+  "name": "Aceternity UI",
+  "website": "https://ui.aceternity.com/",
+  "logo": "aceternity-ui.png",
+  "cost": "free",
+  "type": ["elements"],
+  "repository": "",
+  "tech": ["react", "next", "framer"],
+  "usage": "copy-paste",
+  "short description": "",
+  "figma?": "",
+  "templates?": ["free", "paid"],
+  "components list (for searching)": ""
+}

@@ -1,0 +1,14 @@
+{
+  "name": "shadcn/ui",
+  "website": "https://ui.shadcn.com/",
+  "logo": "shadcn-ui.svg",
+  "cost": "free",
+  "type": ["components", "blocks", "charts"],
+  "repository": "https://github.com/shadcn-ui/ui",
+  "tech": ["react", "radix"],
+  "usage": "copy-paste",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}

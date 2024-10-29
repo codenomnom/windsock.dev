@@ -1,0 +1,20 @@
+{
+  "name": "Material Tailwind",
+  "website": "https://www.material-tailwind.com/",
+  "logo": "material-tailwind.svg",
+  "cost": "free",
+  "type": [
+    "components",
+    "blocks"
+  ],
+  "repository": "",
+  "tech": [
+    "vanilla",
+    "react"
+  ],
+  "usage": "",
+  "short description": "",
+  "figma?": "paid",
+  "templates?": "",
+  "components list (for searching)": ""
+}

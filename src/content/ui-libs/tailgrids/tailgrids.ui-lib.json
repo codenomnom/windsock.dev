@@ -1,0 +1,22 @@
+{
+  "name": "TailGrids",
+  "website": "https://tailgrids.com",
+  "logo": "tailgrids.svg",
+  "cost": "freemium",
+  "type": [
+    "components",
+    "blocks",
+    "templates"
+  ],
+  "repository": "https://github.com/TailGrids/tailwind-ui-components",
+  "tech": [
+    "vanilla",
+    "react",
+    "vue"
+  ],
+  "usage": "",
+  "short description": "",
+  "figma?": "freemium",
+  "templates?": "",
+  "components list (for searching)": ""
+}

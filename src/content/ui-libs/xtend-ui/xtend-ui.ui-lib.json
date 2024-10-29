@@ -1,0 +1,17 @@
+{
+  "name": "Xtend UI",
+  "website": "https://xtendui.com/",
+  "logo": "xtend-ui.png",
+  "cost": "free",
+  "type": [
+    "components",
+    "utilities"
+  ],
+  "repository": "https://github.com/xtendui/xtendui",
+  "tech": "",
+  "usage": "npm package",
+  "short description": "",
+  "figma?": "",
+  "templates?": "",
+  "components list (for searching)": ""
+}
