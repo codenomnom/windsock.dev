@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "800"],
   display: "swap",
   variable: "--font-poppins",
 });

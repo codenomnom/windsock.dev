@@ -31,6 +31,7 @@ export function UILibsList({ items = [] }: Props<ListProps>) {
               <h3 className="font-bold font-[family-name:var(--font-poppins)]">{lib.name}</h3>
               <p className="text-sm">{lib.website}</p>
             </div>
+            {/* <div className="spacer bg-red-500 h-full" style={{ width: `${Math.floor(Math.random() * 100)}%`}}></div> */}
           </a>
         </li>
       ))}
