@@ -1,0 +1,14 @@
+{
+    "name": "MynaUI",
+    "website": "https://mynaui.com/",
+    "logo": "mynaui.svg",
+    "cost": "",
+    "type": [""],
+    "repository": "",
+    "tech": ["react", "shadcn/ui"],
+    "usage": "",
+    "short description": "",
+    "figma?": "yes",
+    "templates?": "paid",
+    "components list (for searching)": ""
+  }

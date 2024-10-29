@@ -1,0 +1,14 @@
+{
+    "name": "Preline UI",
+    "website": "https://preline.co/",
+    "logo": "prelineui.svg",
+    "cost": "free",
+    "type": ["components", "templates", "blocks"],
+    "repository": "https://github.com/htmlstreamofficial/preline",
+    "tech": "js\r\njs integrations",
+    "usage": "",
+    "short description": "",
+    "figma?": "",
+    "templates?": "free",
+    "components list (for searching)": ""
+  }

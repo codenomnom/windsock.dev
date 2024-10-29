@@ -1,0 +1,14 @@
+{
+    "name": "Flowbite",
+    "website": "https://flowbite.com/",
+    "logo": "flowbite.svg",
+    "cost": "freemium",
+    "type": ["components"],
+    "repository": "https://github.com/themesberg/flowbite",
+    "tech": "vanilla",
+    "usage": "",
+    "short description": "UI kit focused on complex interactions.",
+    "figma?": "",
+    "templates?": "",
+    "components list (for searching)": ""
+  }

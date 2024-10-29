@@ -1,0 +1,14 @@
+{
+    "name": "HyperUI",
+    "website": "https://www.hyperui.dev/",
+    "logo": "hyper-ui.jpg",
+    "cost": "free",
+    "type": ["components", "blocks"],
+    "repository": "https://github.com/markmead/hyperui",
+    "tech": "vanilla\r\njsx\r\nvue",
+    "usage": "",
+    "short description": "",
+    "figma?": "",
+    "templates?": "",
+    "components list (for searching)": ""
+  }

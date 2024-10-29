@@ -1,0 +1,14 @@
+{
+    "name": "Tailwind Elements",
+    "website": "https://tw-elements.com/",
+    "logo": "tailwind-elements.png",
+    "cost": "freemium",
+    "type": ["components", "tools", "more"],
+    "repository": "https://github.com/mdbootstrap/TW-Elements/",
+    "tech": "standard\r\nreact",
+    "usage": "",
+    "short description": "",
+    "figma?": "",
+    "templates?": "",
+    "components list (for searching)": ""
+  }

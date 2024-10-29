@@ -1,0 +1,14 @@
+{
+    "name": "Sailboat UI",
+    "website": "https://sailboatui.com/",
+    "logo": "sailboatui.svg",
+    "cost": "",
+    "type": ["components"],
+    "repository": "https://github.com/sailboatui/sailboatui",
+    "tech": "alpine.js",
+    "usage": "",
+    "short description": "",
+    "figma?": "",
+    "templates?": "",
+    "components list (for searching)": ""
+}

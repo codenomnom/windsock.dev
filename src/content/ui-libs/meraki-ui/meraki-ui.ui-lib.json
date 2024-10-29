@@ -1,0 +1,14 @@
+{
+    "name": "Meraki UI",
+    "website": "https://merakiui.com/",
+    "logo": "merakiui.svg",
+    "cost": "free",
+    "type": [""],
+    "repository": "https://github.com/merakiuilabs/merakiui",
+    "tech": ["alpine.js"],
+    "usage": "",
+    "short description": "Components for e-commerce and admin interfaces.",
+    "figma?": "",
+    "templates?": "paid",
+    "components list (for searching)": ""
+  }
