@@ -10,8 +10,10 @@ export function UILibsList({ items = [] }: Props<ListProps>) {
   return (
     <ul className="w-full">
       {items.map((lib) => (
-        <li key={lib._meta.path} className="min-h-24 text-[#545454] bg-white rounded mb-4 shadow-[0px_0px_10px_0px_#523f690d] border border-[#e2e2e2] hover:border-[#cfcfcf] hover:shadow-[0px_0px_16px_0px_#523f6926] transition-shadow duration-300">
-          <a href={`${lib.website}`} target="_blank" className="w-full h-full flex items-start p-6">
+        <li key={lib._meta.path} className="relative min-h-24 text-[#545454] rounded mb-4  border border-[#e2e2e2] hover:border-[#cfcfcf] transition-shadow duration-300">
+
+
+          <a href={`${lib.website}`} target="_blank" className="w-full h-full flex items-start p-6 z-10 absolute">
             <div className={`logo h-14 w-14 rounded-lg flex justify-center items-center bg-[#fafafa] border border-[#e2e2e2]`}>
               {
                 lib.logo && (
@@ -31,8 +33,10 @@ export function UILibsList({ items = [] }: Props<ListProps>) {
               <h3 className="font-bold font-[family-name:var(--font-poppins)]">{lib.name}</h3>
               <p className="text-sm">{lib.website}</p>
             </div>
-            {/* <div className="spacer bg-red-500 h-full" style={{ width: `${Math.floor(Math.random() * 100)}%`}}></div> */}
+
           </a>
+
+          <div className="spacer absolute top-0 bottom-0 bg-white z-0 transition-all" style={{ width: `${Math.floor(Math.random() * 100)}%` }}>&nbsp;</div>
         </li>
       ))}
     </ul>
