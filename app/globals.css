@@ -19,13 +19,3 @@ body {
   background: var(--background);
   font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
-
-div.spacer {
-  background: repeating-linear-gradient(
-    45deg,
-    #fafafa,
-    #fafafa 10px,
-    #f0f0f0 10px,
-    #f0f0f0 20px
-  );
-}

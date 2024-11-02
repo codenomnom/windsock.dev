@@ -8,8 +8,19 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-items-center min-h-screen p-8 pt-16 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       <div className="intro flex flex-col items-center mb-8">
-        <h1 className="font-extrabold font-[family-name:var(--font-poppins)] text-7xl sm:text-8xl inline-flex -ml-12 sm:-ml-16">
-          <MeteoconsWindsockFill className="mt-2" />
+      {/* -ml-12 sm:-ml-16 */}
+        <h1 className="font-black font-[family-name:var(--font-montserrat)] text-7xl sm:text-8xl inline-flex -ml-6 sm:-ml-10">
+          {/* <MeteoconsWindsockFill className="mt-2" /> */}
+
+          <span className="pt-5">
+            <Image
+              width={72}
+              height={72}
+              src={`./windsock.svg`}
+              alt={` logo`}
+              className="mr-6"
+            />
+          </span>
           windsock
         </h1>
         <p>browse, explore and compare tailwind resources</p>

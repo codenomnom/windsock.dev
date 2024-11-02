@@ -1,0 +1,123 @@
+.item2 {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.8px, transparent 0.8px), radial-gradient(#444cf7 0.8px, #e5e5f7 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+div.spacer {
+  /* background: repeating-linear-gradient(45deg,
+      #fafafa,
+      #fafafa 10px,
+      #f0f0f0 10px,
+      #f0f0f0 20px); */
+  /* background-color: #e5e5f7; */
+  /* opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.8px, transparent 0.8px), radial-gradient(#444cf7 0.8px, #e5e5f7 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px; */
+
+  /* background-color: #e5e5f7; */
+  /* opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.55px, transparent 0.55px), radial-gradient(#444cf7 0.55px, #e5e5f7 0.55px);
+  background-size: 22px 22px;
+  background-position: 0 0, 11px 11px; */
+
+  /* background-color: #e5e5f7;
+  opacity: 0.8;
+  background: repeating-linear-gradient(-45deg, #444cf7, #444cf7 4.5px, #e5e5f7 4.5px, #e5e5f7 22.5px); */
+
+  /* background-image: radial-gradient(#cfcfcf 1px, transparent 1px), radial-gradient(#cfcfcf 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+  background-color: #fefefe; */
+
+  /* combined #1 */
+  /* background-image: repeating-linear-gradient(135deg, transparent, transparent 28px, #f0f0f0 28px, #f0f0f0 56px);
+  background-color: #ffffff; */
+
+  /* combined #2 */
+  /* background: linear-gradient(45deg, #0000 calc(25%/3), #f0f0f0 0 calc(50%/3),
+      #0000 0 calc(250%/3), #f0f0f0 0 calc(275%/3),
+      #0000 0), linear-gradient(45deg, #f0f0f0 calc(25%/3), #0000 0 calc(50%/3),
+      #f0f0f0 0 25%, #0000 0 75%,
+      #f0f0f0 0 calc(250%/3), #0000 0 calc(275%/3),
+      #f0f0f0 0),
+    linear-gradient(-45deg, #0000 calc(25%/3), #f0f0f0 0 calc(50%/3),
+      #0000 0 calc(250%/3), #f0f0f0 0 calc(275%/3),
+      #0000 0), linear-gradient(-45deg, #f0f0f0 calc(25%/3), #0000 0 calc(50%/3),
+      #f0f0f0 0 25%, #0000 0 75%,
+      #f0f0f0 0 calc(250%/3), #0000 0 calc(275%/3),
+      #f0f0f0 0) #ffffff;
+  background-size: 56px 56px;
+  background-position: 0 0, 28px 28px; */
+
+  /* background:
+    linear-gradient(135deg, #0000 20.5%, #ffffff 0 29.5%, #0000 0) 0 14px,
+    linear-gradient(45deg, #0000 8%, #ffffff 0 17%, #0000 0 58%) 28px 0,
+    linear-gradient(135deg, #0000 8%, #ffffff 0 17%, #0000 0 58%, #ffffff 0 67%, #0000 0),
+    linear-gradient(45deg, #0000 8%, #ffffff 0 17%, #0000 0 58%, #ffffff 0 67%, #0000 0 83%, #ffffff 0 92%, #0000 0),
+    #fafafa;
+  background-size: 56px 56px; */
+
+
+  /* background:
+    linear-gradient(135deg, #0000 18.75%, #ffffff 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #ffffff -6.25% 6.25%, #fafafa 0 18.75%);
+  background-size: 56px 56px; */
+
+  /* background:
+    radial-gradient(calc(1.28*28px + 10.5px/2) at left 50% bottom calc(-.8*28px), #fafafa calc(100% - 10.5px), #ffffff calc(101% - 10.5px) 100%, #0000 101%) calc(2*28px) calc(-1*calc(1.5*28px + 10.5px)),
+    radial-gradient(calc(1.28*28px + 10.5px/2) at left 50% bottom calc(-.8*28px), #f0f0f0 calc(100% - 10.5px), #ffffff calc(101% - 10.5px) 100%, #0000 101%) calc(-1*28px) calc(calc(1.5*28px + 10.5px)/-2),
+    radial-gradient(calc(1.28*28px + 10.5px/2) at left 50% top calc(-.8*28px), #f0f0f0 calc(100% - 10.5px), #ffffff calc(101% - 10.5px) 100%, #0000 101%) 0 calc(1.5*28px + 10.5px),
+    radial-gradient(calc(1.28*28px + 10.5px/2) at left 50% top calc(-.8*28px), #fafafa calc(100% - 10.5px), #ffffff calc(101% - 10.5px) 100%, #0000 101%) 28px calc(calc(1.5*28px + 10.5px)/ 2),
+    linear-gradient(#fafafa 50%, #f0f0f0 0);
+  background-size: calc(4*28px) calc(1.5*28px + 10.5px); */
+
+  /* background: linear-gradient(135deg, #fafafa 25%, transparent 25%) -28px 0, linear-gradient(225deg, #fafafa 25%, transparent 25%) -28px 0, linear-gradient(315deg, #fafafa 25%, transparent 25%), linear-gradient(45deg, #fafafa 25%, transparent 25%);
+  background-size: 56px 56px;
+  background-color: #ffffff; */
+}
+.line {
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  background-color: #dc2626;
+  left: 0;
+  z-index: 20;
+}
+.ui-lib {
+  /* border-bottom: 2px solid #cfcfcf; */
+  
+  /* combined #1 */
+  /* background-image: repeating-linear-gradient(135deg, transparent, transparent 28px, #fafafa 28px, #fafafa 56px); */
+
+  /* combined #2 */
+  /* background: linear-gradient(45deg, #0000 calc(25%/3), #fafafa 0 calc(50%/3),
+      #0000 0 calc(250%/3), #fafafa 0 calc(275%/3),
+      #0000 0), linear-gradient(45deg, #fafafa calc(25%/3), #0000 0 calc(50%/3),
+      #fafafa 0 25%, #0000 0 75%,
+      #fafafa 0 calc(250%/3), #0000 0 calc(275%/3),
+      #fafafa 0),
+    linear-gradient(-45deg, #0000 calc(25%/3), #fafafa 0 calc(50%/3),
+      #0000 0 calc(250%/3), #fafafa 0 calc(275%/3),
+      #0000 0), linear-gradient(-45deg, #fafafa calc(25%/3), #0000 0 calc(50%/3),
+      #fafafa 0 25%, #0000 0 75%,
+      #fafafa 0 calc(250%/3), #0000 0 calc(275%/3),
+      #fafafa 0) #ffffff;
+  background-size: 56px 56px;
+  background-position: 0 0, 28px 28px; */
+  position: relative;
+}
+
+.ui-lib::before {
+  display: block;
+  content: '';
+  height: 1px;
+  background-color: #cfcfcf;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+}
