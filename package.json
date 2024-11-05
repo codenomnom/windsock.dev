@@ -14,7 +14,7 @@
     "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
   "devDependencies": {
-    "@content-collections/core": "^0.7.2",
+    "@content-collections/core": "^0.7.3",
     "@content-collections/next": "^0.2.3",
     "@egoist/tailwindcss-icons": "^1.8.1",
     "@iconify-json/meteocons": "^1.2.1",
