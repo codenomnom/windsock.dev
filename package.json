@@ -18,6 +18,7 @@
     "@content-collections/next": "^0.2.3",
     "@egoist/tailwindcss-icons": "^1.8.1",
     "@iconify-json/meteocons": "^1.2.1",
+    "@iconify-json/mi": "^1.2.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
