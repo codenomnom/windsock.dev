@@ -17,7 +17,7 @@ const config: Config = {
   },
   plugins: [
     iconsPlugin({
-      collections: getIconCollections(["meteocons"])
+      collections: getIconCollections(["meteocons", "mi"])
     }),
   ],
 };
