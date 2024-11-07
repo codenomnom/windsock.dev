@@ -12,13 +12,13 @@ export default function Home() {
         <h1 className="font-black font-[family-name:var(--font-montserrat)] text-7xl sm:text-8xl inline-flex -ml-6 sm:-ml-10">
           {/* <MeteoconsWindsockFill className="mt-2" /> */}
 
-          <span className="pt-5">
+          <span className="pt-6">
             <Image
-              width={72}
-              height={72}
+              width={64}
+              height={64}
               src={`./windsock.svg`}
               alt={` logo`}
-              className="mr-6"
+              className="mr-4"
             />
           </span>
           windsock
