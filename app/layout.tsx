@@ -1,38 +1,39 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Poppins, Montserrat } from "next/font/google";
-import Providers from "./providers";
+import type { Metadata } from 'next';
+import Providers from './providers';
 
-const poppins = Poppins({
-  weight: ["400", "500", "600", "800"],
-  display: "swap",
-  subsets: ["latin"],
-  variable: "--font-poppins",
-});
+// import localFont from 'next/font/local';
+// import { Poppins, Montserrat } from 'next/font/google';
 
-const montserrat = Montserrat({
-  weight: ["600", "700", "800", "900"],
-  display: "swap",
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-});
+// const poppins = Poppins({
+//   weight: ['400', '500', '600', '800'],
+//   display: 'swap',
+//   subsets: ['latin'],
+//   variable: '--font-poppins',
+// });
 
-import "./globals.css";
+// const montserrat = Montserrat({
+//   weight: ['600', '700', '800', '900'],
+//   display: 'swap',
+//   subsets: ['latin'],
+//   variable: '--font-montserrat',
+// });
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import './globals.css';
+
+// const geistSans = localFont({
+//   src: './fonts/GeistVF.woff',
+//   variable: '--font-geist-sans',
+//   weight: '100 900',
+// });
+// const geistMono = localFont({
+//   src: './fonts/GeistMonoVF.woff',
+//   variable: '--font-geist-mono',
+//   weight: '100 900',
+// });
 
 export const metadata: Metadata = {
-  title: "windsock",
-  description: "browse, explore and compare tailwind resources",
+  title: 'windsock',
+  description: 'browse, explore and compare tailwind resources',
 };
 
 export default function RootLayout({
@@ -42,9 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${montserrat.variable} antialiased`}
-      >
+      <body className={`antialiased`}>
         <Providers>
           {children}
         </Providers>

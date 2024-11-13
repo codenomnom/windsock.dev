@@ -38,11 +38,9 @@ function ListItem({ lib }: { lib: Lib }) {
         'bg-[#f4f4f5a6]',
         'hover:shadow-[0px_0px_18px_0px_rgba(0,_0,_0,_0.03)]',
         'transition-border transition-all duration-200',
-        'py-6',
-        'hover:px-6',
       )}
     >
-      <a href={lib.website} target='_blank' className="flex items-center">
+      <a href={lib.website} target='_blank' className="flex items-center w-full h-full py-6 hover:px-6 transition-all duration-200">
 
         {/* <div href={`${lib.website}`} target="_blank" className="item w-full h-full  px-0 pr-2 z-10 absolute"> */}
         <div className={cn('logo h-14 w-14 rounded-lg flex justify-center items-center bg-[#fafafa] border border-[#e2e2e2]')}>
