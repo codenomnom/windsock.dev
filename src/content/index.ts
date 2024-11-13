@@ -1,5 +1,5 @@
-import { ui } from './ui-libs';
+import { allLibs } from 'content-collections';
 
 export const content = {
-  ui,
+  libs: allLibs,
 }

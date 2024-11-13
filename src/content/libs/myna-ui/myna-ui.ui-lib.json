@@ -2,7 +2,7 @@
     "name": "MynaUI",
     "website": "https://mynaui.com/",
     "logo": "mynaui.svg",
-    "cost": "",
+    "cost": "freemium",
     "type": [""],
     "repository": "",
     "tech": ["react", "shadcn/ui"],

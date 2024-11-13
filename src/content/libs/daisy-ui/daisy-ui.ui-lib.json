@@ -2,7 +2,7 @@
     "name": "DaisyUI",
     "website": "https://daisyui.com/",
     "logo": "daisyui.png",
-    "cost": "",
+    "cost": "free",
     "type": ["component-classes"],
     "repository": "https://github.com/saadeghi/daisyui",
     "tech": "vanilla?",

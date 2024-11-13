@@ -2,7 +2,7 @@
     "name": "Penguin UI",
     "website": "https://www.penguinui.com/",
     "logo": "penguin-ui.svg",
-    "cost": "",
+    "cost": "free",
     "type": ["components"],
     "repository": "",
     "tech": "alpine",
