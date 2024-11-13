@@ -1,7 +1,6 @@
-import Image from "next/image";
-import { content } from '@/content';
-import { List } from "@/components/list/List";
-import { Filter } from "@/components/filter/Filter";
+import Image from 'next/image';
+import { List } from '@/components/list/List';
+import { Filter } from '@/components/filter/Filter';
 
 // dark:invert
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
       </div>
 
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start md:max-w-[44rem] w-full">
-        <List items={content.libs} />
+        <List />
       </main>
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">

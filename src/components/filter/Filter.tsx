@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
 import { Switch } from '@nextui-org/react';
+import { useFilterContext } from '@/context/FilterContext';
 import { IconifyIconBaselinePaid, IconifyIconBaselineMoneyOff } from '../icons';
 
 export function Filter({ }) {
-  const [paid, setPaid] = useState(true);
+  const { includePaid, setIncludePaid } = useFilterContext();
 
   return (
     <div className="filter flex items-center">
@@ -15,8 +15,8 @@ export function Filter({ }) {
         size="md"
         color="primary"
         className="ml-2"
-        isSelected={paid}
-        onValueChange={setPaid}
+        isSelected={includePaid}
+        onValueChange={setIncludePaid}
         thumbIcon={({ isSelected, className }) =>
           isSelected ? (
             <IconifyIconBaselinePaid className={className} />
