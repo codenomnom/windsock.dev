@@ -1,0 +1,14 @@
+{
+    "name": "Penguin UI",
+    "website": "https://www.penguinui.com/",
+    "logo": "penguin-ui.svg",
+    "cost": "",
+    "type": ["components"],
+    "repository": "",
+    "tech": "alpine",
+    "usage": "copy-paste",
+    "short description": "Beautifully crafted UI components for Tailwind CSS and Alpine JS",
+    "figma?": "",
+    "templates?": "",
+    "components list (for searching)": ""
+  }
