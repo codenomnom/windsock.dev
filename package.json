@@ -23,6 +23,7 @@
     "@iconify-json/ic": "^1.2.1",
     "@iconify-json/meteocons": "^1.2.1",
     "@iconify-json/mi": "^1.2.1",
+    "@iconify-json/skill-icons": "^1.2.0",
     "@stylistic/eslint-plugin": "^2.10.1",
     "@types/node": "^20",
     "@types/react": "^18",
