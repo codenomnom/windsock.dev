@@ -43,3 +43,6 @@ next-env.d.ts
 .content-collections
 
 /scrap
+
+# IDEs
+.idea
