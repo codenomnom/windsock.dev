@@ -6,7 +6,7 @@
   "cost": "freemium",
   "type": ["blocks", "templates"],
   "repository": "https://github.com/tailus-ui",
-  "tech": "",
+  "tech": ["vanilla", "react"],
   "usage": "",
   "short description": "",
   "figma?": "",

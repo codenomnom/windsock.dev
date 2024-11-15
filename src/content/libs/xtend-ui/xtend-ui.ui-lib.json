@@ -8,7 +8,7 @@
     "utilities"
   ],
   "repository": "https://github.com/xtendui/xtendui",
-  "tech": "",
+  "tech": ["vanilla"],
   "usage": "npm package",
   "short description": "",
   "figma?": "",

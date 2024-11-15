@@ -7,7 +7,7 @@
     "components"
   ],
   "repository": "https://github.com/Siumauricio/rippleui",
-  "tech": "",
+  "tech": ["vanilla", "jsx", "FIXME:check"],
   "usage": "npm package",
   "short description": "",
   "figma?": "",

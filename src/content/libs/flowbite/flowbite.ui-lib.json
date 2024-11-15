@@ -5,7 +5,7 @@
     "cost": "freemium",
     "type": ["components"],
     "repository": "https://github.com/themesberg/flowbite",
-    "tech": "vanilla",
+    "tech": ["vanilla"],
     "usage": "",
     "short description": "UI kit focused on complex interactions.",
     "figma?": "",

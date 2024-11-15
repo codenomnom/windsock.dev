@@ -7,7 +7,7 @@
     "elements"
   ],
   "repository": "https://github.com/thedevdojo/pines",
-  "tech": "alpine",
+  "tech": ["alpine"],
   "usage": "copy-paste",
   "short description": "",
   "figma?": "",

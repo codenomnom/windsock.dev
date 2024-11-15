@@ -1,14 +1,19 @@
 {
-    "name": "MynaUI",
-    "website": "https://mynaui.com/",
-    "logo": "mynaui.svg",
-    "cost": "freemium",
-    "type": [""],
-    "repository": "",
-    "tech": ["react", "shadcn/ui"],
-    "usage": "",
-    "short description": "",
-    "figma?": "yes",
-    "templates?": "paid",
-    "components list (for searching)": ""
-  }
+  "name": "MynaUI",
+  "website": "https://mynaui.com/",
+  "logo": "mynaui.svg",
+  "cost": "freemium",
+  "type": [
+    ""
+  ],
+  "repository": "",
+  "tech": [
+    "react",
+    "FIXME:check"
+  ],
+  "usage": "",
+  "short description": "",
+  "figma?": "yes",
+  "templates?": "paid",
+  "components list (for searching)": ""
+}

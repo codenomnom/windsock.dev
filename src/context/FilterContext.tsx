@@ -4,6 +4,7 @@ import { createContext, useContext, useEffect, useState, type Dispatch, type Set
 import { content } from '@/content';
 import { Props } from '@/types/react';
 import { type Lib } from 'content-collections';
+import { techList } from '@/content/content-config';
 
 type Filter = {
   items: Array<Lib>,
@@ -11,6 +12,9 @@ type Filter = {
 
   includePaid: boolean,
   setIncludePaid: Dispatch<SetStateAction<boolean>>,
+
+  techFilter: Set<string>,
+  setTechFilter: Dispatch<SetStateAction<Set<string>>>,
 };
 
 export const FilterContext = createContext<Filter | undefined>(undefined);
@@ -18,19 +22,25 @@ export const FilterContext = createContext<Filter | undefined>(undefined);
 export const FilterProvider = ({ children }: Props) => {
   const [items, setItems] = useState(content.libs);
   const [includePaid, setIncludePaid] = useState(true);
+  const [techFilter, setTechFilter] = useState(new Set<string>(techList.map((t) => t.id)));
 
   useEffect(() => {
-    const opts = ['free', 'freemium'];
+    const paidFilter = ['free', 'freemium'];
     if (includePaid) {
-      opts.push('paid');
+      paidFilter.push('paid');
     }
-    setItems(content.libs.filter((item) => opts.includes(item.cost)))
-  }, [includePaid]);
+
+    setItems(content.libs
+      .filter((item) => paidFilter.includes(item.cost))
+      .filter((item) => !!item.tech.filter((t) => techFilter.has(t)).length)
+    )
+  }, [includePaid, techFilter]);
 
   return <FilterContext.Provider
     value={{
       items, setItems,
       includePaid, setIncludePaid,
+      techFilter, setTechFilter,
     }}
   >
     {children}

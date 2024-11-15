@@ -5,7 +5,7 @@
   "cost": "free",
   "type": ["components"],
   "repository": "https://github.com/nextui-org/nextui",
-  "tech": "react",
+  "tech": ["react"],
   "usage": "npm package",
   "short description": "",
   "figma?": "",

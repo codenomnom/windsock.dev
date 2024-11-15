@@ -5,7 +5,7 @@
   "cost": "free",
   "type": ["components"],
   "repository": "https://github.com/rewindui/rewindui",
-  "tech": "react",
+  "tech": ["react"],
   "usage": "npm package",
   "short description": "",
   "figma?": "",

@@ -5,7 +5,7 @@
     "cost": "free",
     "type": ["components"],
     "repository": "",
-    "tech": "alpine",
+    "tech": ["alpine"],
     "usage": "copy-paste",
     "short description": "Beautifully crafted UI components for Tailwind CSS and Alpine JS",
     "figma?": "",

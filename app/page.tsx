@@ -22,7 +22,7 @@ export default function Home() {
         <p className="-mt-2 text-[18px]">browse, explore and compare tailwind resources</p>
       </div>
 
-      <div className="filter mt-12">
+      <div className="filter w-full mt-12 md:max-w-[44rem] w-full">
         <Filter />
       </div>
 

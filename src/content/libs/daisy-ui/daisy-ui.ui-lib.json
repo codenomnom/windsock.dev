@@ -1,14 +1,16 @@
 {
-    "name": "DaisyUI",
-    "website": "https://daisyui.com/",
-    "logo": "daisyui.png",
-    "cost": "free",
-    "type": ["component-classes"],
-    "repository": "https://github.com/saadeghi/daisyui",
-    "tech": "vanilla?",
-    "usage": "",
-    "short description": "Highly customizable Tailwind plugin with components.",
-    "figma?": "paid",
-    "templates?": "paid",
-    "components list (for searching)": ""
-  }
+  "name": "DaisyUI",
+  "website": "https://daisyui.com/",
+  "logo": "daisyui.png",
+  "cost": "free",
+  "type": [
+    "component-classes"
+  ],
+  "repository": "https://github.com/saadeghi/daisyui",
+  "tech": ["vanilla"],
+  "usage": "",
+  "short description": "Highly customizable Tailwind plugin with components.",
+  "figma?": "paid",
+  "templates?": "paid",
+  "components list (for searching)": ""
+}

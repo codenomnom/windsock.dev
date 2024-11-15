@@ -20,7 +20,7 @@ const config: Config = {
   darkMode: 'class',
   plugins: [
     iconsPlugin({
-      collections: getIconCollections(['meteocons', 'mi', 'ic', 'skill-icons'])
+      collections: getIconCollections(['meteocons', 'mi', 'ic', 'skill-icons', 'file-icons'])
     }),
     nextui(),
   ],

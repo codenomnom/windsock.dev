@@ -5,7 +5,7 @@
   "cost": "paid",
   "type": ["components", "templates", "starter kits"],
   "repository": "https://github.com/tailkit/tailkit",
-  "tech": "",
+  "tech": ["vanilla", "react", "vue", "alpine"],
   "usage": "",
   "short description": "Professional Tailwind components.",
   "figma?": "",

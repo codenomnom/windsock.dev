@@ -10,7 +10,8 @@ const libs = defineCollection({
     logo: z.string().optional(),
     type: z.array(z.string()),
     repository: z.string().optional(),
-    cost: z.union([z.literal('free'), z.literal('paid'), z.literal('freemium')]),
+    tech: z.array(z.enum(['html', 'vanilla', 'react', 'jsx', 'vue', 'next', 'alpine', 'FIXME:check'])),
+    cost: z.enum(['free', 'paid', 'freemium']),
   }),
   parser: 'json',
 });
