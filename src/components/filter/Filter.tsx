@@ -14,7 +14,7 @@ export function Filter({}) {
         free only
         <Switch
           defaultSelected
-          size="md"
+          size="lg"
           color="primary"
           className="ml-2"
           isSelected={includePaid}

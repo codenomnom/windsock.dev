@@ -42,7 +42,7 @@ export function TechFilter() {
               if (tech.icon) {
                 return (
                   <tech.icon key={`tech-icon-${tech.id}`}
-                             className={'transition-all ' + (techFilter.has(tech.id) ? '' : 'opacity-30 mt-2')}
+                             className={'transition-all text-2xl' + (techFilter.has(tech.id) ? '' : 'opacity-30 mt-0')}
                   />);
               }
               return null;
