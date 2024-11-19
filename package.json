@@ -25,7 +25,7 @@
     "@iconify-json/meteocons": "^1.2.1",
     "@iconify-json/mi": "^1.2.1",
     "@iconify-json/skill-icons": "^1.2.0",
-    "@stylistic/eslint-plugin": "^2.10.1",
+    "@stylistic/eslint-plugin": "^2.11.0",
     "@types/node": "^22.9.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
