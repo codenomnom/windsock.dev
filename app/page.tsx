@@ -22,11 +22,10 @@ export default function Home() {
         <p className="-mt-2 text-[18px]">browse, explore and compare tailwind resources</p>
       </div>
 
-      <div className="filter w-full mt-12 md:max-w-[44rem] w-full">
+      <div className="filter w-full mt-12 md:max-w-[44rem]">
         <Filter />
       </div>
 
-      {/*md:max-w-[44rem]*/}
       <main className="flex flex-col gap-8 row-start-2 items-center w-full mt-16">
         <List />
       </main>

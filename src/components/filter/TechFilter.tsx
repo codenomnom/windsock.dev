@@ -1,7 +1,7 @@
 import { Key } from 'react';
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button, DropdownSection } from '@nextui-org/react';
 
-import { techList } from '@/content/content-config';
+import { techList } from '@/content/config/technologies';
 import { useFilterContext } from "@/context/FilterContext";
 
 export function TechFilter() {
