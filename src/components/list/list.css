@@ -79,6 +79,7 @@ div.spacer {
   background-size: 56px 56px;
   background-color: #ffffff; */
 }
+
 .line {
   height: 1px;
   position: absolute;
@@ -87,9 +88,10 @@ div.spacer {
   left: 0;
   z-index: 20;
 }
+
 .ui-lib {
   /* border-bottom: 2px solid #cfcfcf; */
-  
+
   /* combined #1 */
   /* background-image: repeating-linear-gradient(135deg, transparent, transparent 28px, #fafafa 28px, #fafafa 56px); */
 
@@ -150,5 +152,139 @@ div.spacer {
     right: 0;
     height: 1px;
     background-color: #e2e2e2;
+  }
+}
+
+/*******/
+.libs-list {
+  --list-gap: 5rem;
+  --list-max-width: 1280px;
+
+  max-width: min(var(--list-max-width), 100%);
+  /*border: 1px solid red;*/
+
+  align-items: start;
+  display: grid;
+  gap: var(--list-gap);
+  row-gap: 7rem;
+  /*TODO: figure how to deal with those 2rems*/
+  grid-template-columns: repeat(auto-fit, min(100%, calc((var(--list-max-width) / 2 - 2rem) - var(--list-gap))));
+  justify-content: center;
+  /*margin: 3rem auto 6rem;*/
+  width: 100%;
+
+
+  .libs-list-item {
+    --list-item-logo-size: 84px;
+    /*border: 1px solid lightblue;*/
+
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    /*border: 1px solid blue;*/
+
+    .logo {
+      width: var(--list-item-logo-size);
+      height: var(--list-item-logo-size);
+      border-radius: 16px;
+      /*border-radius: 100%;*/
+      flex-shrink: 0;
+      background-color: #fafafa;
+      /*border: 1px solid #e2e2e2;*/
+      border: 2px solid transparent;
+      transition: border-color .3s ease, border-width .3s ease;
+    }
+
+    &:hover .logo {
+      border-color: #dddddd;
+      border-width: 2px;
+    }
+
+    &:hover .content h3 a {
+      opacity: 1;
+    }
+
+    .content {
+      /*border: 1px solid red;*/
+      flex-grow: 1;
+
+      .rating {
+        display: flex;
+        align-items: center;
+        /*margin-top: -7px;*/
+
+        .score {
+          flex-grow: 1;
+          height: 1px;
+          background-color: #cfcfcf;
+          --progress: 1%;
+
+          &::after {
+            content: '';
+            display: block;
+            height: 1px;
+            width: var(--progress);
+            background-color: #dc2626;
+            transition: width .3s ease;
+          }
+        }
+
+        .icon {
+          font-size: 2rem;
+          margin-left: 8px;
+        }
+      }
+
+      h3 {
+        color: black;
+        font-size: 1.6rem;
+        font-weight: bold;
+        display: inline-flex;
+        align-items: center;
+        /*justify-content: space-between;*/
+        width: 100%;
+
+        a {
+          font-size: 13px;
+          opacity: 0;
+          font-weight: normal;
+          /*display: inline-flex;*/
+          /*align-items: baseline;*/
+
+          .icon {
+            font-size: 14px;
+          }
+        }
+      }
+
+
+      .description {
+        margin-top: 8px;
+        blockquote {
+          font-style: italic;
+          padding: 4px 4px 4px 8px;
+          background-color: #eaeaea;
+          border-left: 2px solid #dddddd;
+        }
+      }
+
+      .details {
+        margin-top: 24px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .icon {
+          font-size: 22px;
+          color: #787878;
+        }
+
+        div {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
   }
 }

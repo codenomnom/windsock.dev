@@ -26,7 +26,8 @@ export default function Home() {
         <Filter />
       </div>
 
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start md:max-w-[44rem] w-full mt-16">
+      {/*md:max-w-[44rem]*/}
+      <main className="flex flex-col gap-8 row-start-2 items-center w-full mt-16">
         <List />
       </main>
     </div>
