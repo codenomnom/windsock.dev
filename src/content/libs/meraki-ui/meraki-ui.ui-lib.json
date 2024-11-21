@@ -6,8 +6,8 @@
     "type": [""],
     "repository": "https://github.com/merakiuilabs/merakiui",
     "tech": ["alpine"],
-    "usage": "",
-    "short description": "Components for e-commerce and admin interfaces.",
+    "usage": [],
+    "description": "Modern - Customizable Tailwind CSS UI Components - a collection of responsive components that enhance the user experience of your website",
     "figma?": "",
     "templates?": "paid",
     "components list (for searching)": ""

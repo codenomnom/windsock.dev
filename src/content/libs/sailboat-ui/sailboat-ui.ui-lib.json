@@ -6,8 +6,8 @@
     "type": ["components"],
     "repository": "https://github.com/sailboatui/sailboatui",
     "tech": ["alpine"],
-    "usage": "",
-    "short description": "",
+    "usage": [],
+    "description": "Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open-source Tailwind CSS components, and make it easy to build your products.",
     "figma?": "",
     "templates?": "",
     "components list (for searching)": ""

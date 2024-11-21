@@ -6,8 +6,8 @@
     "type": ["components"],
     "repository": "",
     "tech": ["react", "FIXME:check"],
-    "usage": "",
-    "short description": "",
+    "usage": [],
+    "description": "React components to build charts and dashboards: 35+ fully open-source, accessible components and charts. Built with React and Radix UI",
     "figma?": "",
     "templates?": "",
     "components list (for searching)": ""

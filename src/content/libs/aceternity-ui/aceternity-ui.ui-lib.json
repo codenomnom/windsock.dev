@@ -6,8 +6,8 @@
   "type": ["elements"],
   "repository": "",
   "tech": ["react", "next", "FIXME:check"],
-  "usage": "copy-paste",
-  "short description": "",
+  "usage": ["copy-paste"],
+  "description": "Copy paste the most trending components and use them in your websites without having to worry about styling and animations.",
   "figma?": "",
   "templates?": ["free", "paid"],
   "components list (for searching)": ""

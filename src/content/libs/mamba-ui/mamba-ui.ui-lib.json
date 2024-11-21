@@ -7,8 +7,8 @@
   "type": ["components", "templates"],
   "repository": "https://github.com/Microwawe/mamba-ui",
   "tech": ["vanilla", "vue", "jsx"],
-  "usage": "copy-paste",
-  "short description": "",
+  "usage": ["copy-paste"],
+  "description": "Kickstart your next website in minutes. Mamba UI is a free, open-source collection of UI components and templates based on Tailwind CSS",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

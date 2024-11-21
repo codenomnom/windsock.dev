@@ -6,8 +6,8 @@
   "type": ["components", "blocks", "charts"],
   "repository": "https://github.com/shadcn-ui/ui",
   "tech": ["react", "FIXME:check"],
-  "usage": "copy-paste",
-  "short description": "",
+  "usage": ["copy-paste"],
+  "description": "Beautifully designed components that you can copy and paste into your apps. Made with Tailwind CSS. Open source.",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

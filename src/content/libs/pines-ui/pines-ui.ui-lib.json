@@ -2,14 +2,14 @@
   "name": "Pines UI",
   "website": "https://devdojo.com/pines",
   "logo": "pines-ui.svg",
+  "description": "Pines is a library of animations, sliders, tooltips, accordions, modals, and more! It's a set of UI elements that can be copy and pasted into any Alpine and Tailwind projects.",
   "cost": "free",
   "type": [
     "elements"
   ],
   "repository": "https://github.com/thedevdojo/pines",
   "tech": ["alpine"],
-  "usage": "copy-paste",
-  "short description": "",
+  "usage": ["copy-paste"],
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

@@ -9,8 +9,8 @@
   ],
   "repository": "https://github.com/xtendui/xtendui",
   "tech": ["vanilla"],
-  "usage": "npm package",
-  "short description": "",
+  "usage": ["npm-package"],
+  "description": "A powerful frontend library of Tailwind CSS components enhanced by vanilla js. It helps you build interfaces with advanced interactions and animations.",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

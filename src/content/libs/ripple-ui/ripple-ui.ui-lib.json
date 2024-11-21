@@ -8,8 +8,8 @@
   ],
   "repository": "https://github.com/Siumauricio/rippleui",
   "tech": ["vanilla", "jsx", "FIXME:check"],
-  "usage": "npm package",
-  "short description": "",
+  "usage": ["npm-package"],
+  "description": "Ultimate toolkit for modern interface design. A collection of components and utilities that are used to build modern interfaces.",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

@@ -1,14 +1,20 @@
 {
-  "name": "Next UI",
-  "website": "https://nextui.org/",
-  "logo": "next-ui.svg",
+  "name": "Material Tailwind",
+  "website": "https://www.material-tailwind.com/",
+  "logo": "material-tailwind.svg",
   "cost": "free",
-  "type": ["components"],
-  "repository": "https://github.com/nextui-org/nextui",
-  "tech": ["react"],
-  "usage": "npm package",
-  "short description": "",
-  "figma?": "",
+  "type": [
+    "components",
+    "blocks"
+  ],
+  "repository": "",
+  "tech": [
+    "vanilla",
+    "react"
+  ],
+  "usage": [],
+  "description": "The Tailwind CSS Components Library For Coding 10x Faster",
+  "figma?": "paid",
   "templates?": "",
   "components list (for searching)": ""
 }

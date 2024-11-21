@@ -1,20 +1,15 @@
 {
-  "name": "Material Tailwind",
-  "website": "https://www.material-tailwind.com/",
-  "logo": "material-tailwind.svg",
+  "name": "Next UI",
+  "website": "https://nextui.org/",
+  "logo": "next-ui.svg",
   "cost": "free",
-  "type": [
-    "components",
-    "blocks"
-  ],
-  "repository": "",
-  "tech": [
-    "vanilla",
-    "react"
-  ],
-  "usage": "",
-  "short description": "",
-  "figma?": "paid",
+  "type": ["components"],
+  "repository": "https://github.com/nextui-org/nextui",
+  "tech": ["react"],
+  "usage": ["npm-package", "copy-paste"],
+  "description": "Make beautiful websites regardless of your design experience. Beautiful, fast and modern React UI library.",
+  "pros": "many variations, customizable, themeable, slots, controllable, custom implementation (hooks)",
+  "figma?": "",
   "templates?": "",
   "components list (for searching)": ""
 }

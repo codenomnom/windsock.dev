@@ -7,8 +7,8 @@
   "type": ["blocks", "templates"],
   "repository": "https://github.com/tailus-ui",
   "tech": ["vanilla", "react"],
-  "usage": "",
-  "short description": "",
+  "usage": [],
+  "description": "Ready-to-use templates powered by TailwindCSS and modern tools, enabling fast, scalable, and beautiful web design.",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

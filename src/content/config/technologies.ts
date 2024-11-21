@@ -1,5 +1,5 @@
 import { SVGProps } from 'react';
-import * as icons from '../components/icons';
+import * as icons from '../../components/icons';
 
 export type Tech = {
   id: string,
@@ -8,7 +8,7 @@ export type Tech = {
   hidden?: boolean,
 }
 
-export const technologies: Record<string, Tech> = {
+export const technologies = {
   html: {
     id: 'html',
     name: 'HTML',
@@ -48,7 +48,10 @@ export const technologies: Record<string, Tech> = {
     id: 'FIXME: check',
     name: '',
     hidden: true,
+    icon: icons.TechAlpine,
   },
-}
+} as const satisfies Record<string, Tech>;
 
-export const techList = Object.values(technologies).filter((t) => !t.hidden);
+export type TechID = keyof typeof technologies;
+
+export const techList = Object.values(technologies).filter((t: Tech) => !t.hidden);

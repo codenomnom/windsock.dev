@@ -6,8 +6,8 @@
     "type": ["components", "tools", "more"],
     "repository": "https://github.com/mdbootstrap/TW-Elements/",
     "tech": ["vanilla", "react"],
-    "usage": "",
-    "short description": "",
+    "usage": [],
+    "description": "Top quality open-source UI Kit. Powerful components for Tailwind CSS. Consistent design & advanced functionalities.",
     "figma?": "",
     "templates?": "",
     "components list (for searching)": ""

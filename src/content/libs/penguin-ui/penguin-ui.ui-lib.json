@@ -6,8 +6,8 @@
     "type": ["components"],
     "repository": "",
     "tech": ["alpine"],
-    "usage": "copy-paste",
-    "short description": "Beautifully crafted UI components for Tailwind CSS and Alpine JS",
+    "usage": ["copy-paste"],
+    "description": "Get your project\noff the ice Fast & Easy. Plug-n-play UI component library for Tailwind CSS & Alpine JS",
     "figma?": "",
     "templates?": "",
     "components list (for searching)": ""

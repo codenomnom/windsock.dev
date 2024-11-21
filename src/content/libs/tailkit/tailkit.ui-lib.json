@@ -6,8 +6,8 @@
   "type": ["components", "templates", "starter kits"],
   "repository": "https://github.com/tailkit/tailkit",
   "tech": ["vanilla", "react", "vue", "alpine"],
-  "usage": "",
-  "short description": "Professional Tailwind components.",
+  "usage": [],
+  "description": "Carefully crafted, easy to customize, fully responsive Tailwind components, templates and tools for all your Tailwind CSS based projects.",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

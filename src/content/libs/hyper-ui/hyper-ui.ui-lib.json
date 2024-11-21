@@ -6,8 +6,8 @@
     "type": ["components", "blocks"],
     "repository": "https://github.com/markmead/hyperui",
     "tech": ["vanilla", "jsx", "vue"],
-    "usage": "",
-    "short description": "",
+    "usage": [],
+    "description": "Free Open Source Tailwind CSS Components",
     "figma?": "",
     "templates?": "",
     "components list (for searching)": ""

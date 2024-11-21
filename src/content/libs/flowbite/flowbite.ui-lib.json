@@ -6,9 +6,9 @@
     "type": ["components"],
     "repository": "https://github.com/themesberg/flowbite",
     "tech": ["vanilla"],
-    "usage": "",
-    "short description": "UI kit focused on complex interactions.",
-    "figma?": "",
+    "usage": [],
+    "description": "An open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS and designed in Figma",
+    "figma?": [""],
     "templates?": "",
     "components list (for searching)": ""
   }

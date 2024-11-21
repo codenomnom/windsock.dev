@@ -4,7 +4,7 @@ import { createContext, useContext, useEffect, useState, type Dispatch, type Set
 import { content } from '@/content';
 import { Props } from '@/types/react';
 import { type Lib } from 'content-collections';
-import { techList } from '@/content/content-config';
+import { techList } from '@/content/config/technologies';
 
 type Filter = {
   items: Array<Lib>,

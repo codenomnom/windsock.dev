@@ -8,8 +8,8 @@
   ],
   "repository": "https://github.com/saadeghi/daisyui",
   "tech": ["vanilla"],
-  "usage": "",
-  "short description": "Highly customizable Tailwind plugin with components.",
+  "usage": [],
+  "description": "The most popular component library for Tailwind CSS. daisyUI adds component class names to Tailwind CSS\nso you can make beautiful websites faster than ever.",
   "figma?": "paid",
   "templates?": "paid",
   "components list (for searching)": ""

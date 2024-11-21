@@ -6,8 +6,8 @@
   "type": ["components"],
   "repository": "https://github.com/rewindui/rewindui",
   "tech": ["react"],
-  "usage": "npm package",
-  "short description": "",
+  "usage": ["npm-package"],
+  "description": "A fully customizable React-TailwindCSS component library. Expressive, variant driven styling and configuration",
   "figma?": "",
   "templates?": "",
   "components list (for searching)": ""

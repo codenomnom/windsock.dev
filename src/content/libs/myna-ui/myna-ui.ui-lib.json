@@ -11,8 +11,8 @@
     "react",
     "FIXME:check"
   ],
-  "usage": "",
-  "short description": "",
+  "usage": [],
+  "description": "TailwindCSS and shadcn/ui UI Kit for Figma and React",
   "figma?": "yes",
   "templates?": "paid",
   "components list (for searching)": ""
