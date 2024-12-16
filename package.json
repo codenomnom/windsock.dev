@@ -20,7 +20,7 @@
     "@content-collections/core": "^0.7.3",
     "@content-collections/next": "^0.2.4",
     "@egoist/tailwindcss-icons": "^1.8.2",
-    "@iconify-json/file-icons": "^1.2.0",
+    "@iconify-json/file-icons": "^1.2.1",
     "@iconify-json/ic": "^1.2.1",
     "@iconify-json/meteocons": "^1.2.2",
     "@iconify-json/mi": "^1.2.1",
