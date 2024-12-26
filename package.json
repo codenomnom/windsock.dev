@@ -17,7 +17,7 @@
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
-    "@content-collections/core": "^0.7.3",
+    "@content-collections/core": "^0.8.0",
     "@content-collections/next": "^0.2.4",
     "@egoist/tailwindcss-icons": "^1.8.2",
     "@iconify-json/file-icons": "^1.2.1",
