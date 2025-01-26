@@ -19,7 +19,7 @@
   "devDependencies": {
     "@content-collections/core": "^0.8.0",
     "@content-collections/next": "^0.2.4",
-    "@egoist/tailwindcss-icons": "^1.8.2",
+    "@egoist/tailwindcss-icons": "^1.9.0",
     "@iconify-json/file-icons": "^1.2.1",
     "@iconify-json/ic": "^1.2.2",
     "@iconify-json/meteocons": "^1.2.2",
