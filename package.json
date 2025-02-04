@@ -28,7 +28,7 @@
     "@iconify-json/tabler": "^1.2.15",
     "@iconify-json/tdesign": "^1.2.7",
     "@stylistic/eslint-plugin": "^3.0.1",
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "eslint": "^8.57.1",
