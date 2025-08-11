@@ -21,7 +21,7 @@
     "@content-collections/next": "^0.2.6",
     "@egoist/tailwindcss-icons": "^1.9.0",
     "@iconify-json/file-icons": "^1.2.2",
-    "@iconify-json/ic": "^1.2.2",
+    "@iconify-json/ic": "^1.2.4",
     "@iconify-json/meteocons": "^1.2.2",
     "@iconify-json/mi": "^1.2.2",
     "@iconify-json/skill-icons": "^1.2.3",
