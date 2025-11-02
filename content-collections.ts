@@ -1,10 +1,11 @@
+import { z } from 'zod';
 import { defineCollection, defineConfig } from '@content-collections/core';
  
 const libs = defineCollection({
   name: 'libs',
   directory: 'src/content/libs',
   include: '**/*.json',
-  schema: (z) => ({
+  schema: z.object({
     name: z.string(),
     website: z.string(),
     logo: z.string().optional(),
