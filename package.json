@@ -18,7 +18,7 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@content-collections/core": "^0.12.0",
+    "@content-collections/core": "^0.14.1",
     "@content-collections/next": "^0.2.9",
     "@egoist/tailwindcss-icons": "^1.9.2",
     "@iconify-json/file-icons": "^1.2.2",
