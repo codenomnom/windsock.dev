@@ -1,0 +1,44 @@
+section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    margin-top: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--border);
+
+    h2 {
+      /* we've got padding */
+      margin-bottom: 0;
+    }
+
+    margin-bottom: 1.4rem;
+    padding-bottom: 0.35rem;
+
+    .end-content {
+      font-size: 10px;
+    }
+
+    &.hide-line {
+      border-bottom: none;
+    }
+  }
+}

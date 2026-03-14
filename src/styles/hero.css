@@ -1,0 +1,38 @@
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero h1 {
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--ink);
+  margin-bottom: 0.65rem;
+}
+
+.hero h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 0.75rem;
+  color: var(--ink-2);
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.hero-count {
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--mono);
+  font-size: 0.785rem; /* FIXME: this is a nightmare */
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+}

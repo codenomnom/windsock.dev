@@ -1,0 +1,95 @@
+/* ─── NAV ─── */
+nav {
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.5rem;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.logo {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-right: 1.5rem;
+}
+
+.windsock-svg {
+  width: 36px;
+  height: 36px;
+  display: block;
+  overflow: visible;
+}
+
+.nav-pages {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  text-decoration: none;
+  padding: 0 0.85rem;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: color 0.1s, border-color 0.1s;
+  margin-bottom: -1px;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--ink);
+}
+
+.nav-link.active {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.nav-link.soon {
+  /* pointer-events: none; */
+  opacity: 0.4;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-submit {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-2);
+  text-decoration: none;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  transition: all 0.1s;
+  white-space: nowrap;
+}
+
+.nav-submit:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}

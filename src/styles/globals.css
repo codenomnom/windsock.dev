@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  /* TODO: new styles, need revisiting */
+  --bg: #fafaf9;
+  --ink: #0f0f0e;
+  --ink-2: #5a5955;
+  --ink-3: #a8a6a2;
+  --border: #e4e2de;
+  --accent: #1a6bff;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --green-border: #bbf7d0;
+  --amber: #d97706;
+  --red: #dc2626;
+  --card-bg: #ffffff;
+  --muted: #f4f3f1;
+  --font-dm-mono: 'DM Mono', monospace;
+  --sans: 'Bricolage Grotesque', sans-serif;
+  --gap: 10px;
+
+  --content-width: 880px;
+  --content-width-narrow: 680px;
+  --content-padding: 1.5rem;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-dm-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --ink: #ededed;
+  }
+} */
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  padding-left: var(--content-padding);
+  padding-right: var(--content-padding);
+}
+
+@import './nav.css';
+@import './footer.css';
+@import './grid.css';
+@import './section.css';
+/* components */
+@import './components/_box.css';
+@import './components/_button.css';
+
+section,
+.site-footer {
+  max-width: var(--content-width);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body:has(main.narrow) {
+  --content-width: var(--content-width-narrow);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  p {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--ink-2);
+    line-height: 1.75;
+    margin-bottom: 0.75rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.prose {
+  color: var(--ink-2);
+}
+
+a.text-link {
+  color: var(--ink-2);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: color 0.1s, border-color 0.1s;
+}
+
+a.text-link:hover {
+  color: var(--ink);
+  border-color: var(--ink-3);
+}
