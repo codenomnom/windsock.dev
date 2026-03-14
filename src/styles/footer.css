@@ -1,0 +1,27 @@
+footer {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-credit {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  color: var(--ink-3);
+}
+
+.footer-updated {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  color: var(--ink-3);
+}
